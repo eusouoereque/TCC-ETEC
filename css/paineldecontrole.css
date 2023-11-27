@@ -1,0 +1,102 @@
+.sistemaxcor {
+    color: #012986;
+}
+
+.row {
+    text-align: center;
+}
+
+.margem {
+    margin-left: 5%;
+}
+
+.margemesquerda {
+    margin-left: 6%;
+}
+
+.margembaixo {
+    margin-bottom: 20%;
+}
+
+.risquinhe {
+    border-bottom: 5px solid #012986;
+    padding-bottom: 40px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.risquinhe1 {
+    border-bottom: 5px solid #41b8d5;
+    padding-bottom: 40px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.risquinhe2 {
+    border-bottom: 5px solid #2d8bba;
+    padding-bottom: 40px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.risquinhe3 {
+    border-bottom: 5px solid #2f5f98;
+    padding-bottom: 40px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.risquinhe4 {
+    border-bottom: 5px solid #31356e;
+    padding-bottom: 40px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.cor1 {
+    color: white;
+    background-color: #2d8bba;
+    border-radius: 5px;
+    padding-left: 11px;
+    padding-right: 11px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+.cor2 {
+    color: white;
+    background-color: #31356e;
+    border-radius: 5px;
+    padding-left: 11px;
+    padding-right: 11px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+.cor3 {
+    color: white;
+    background-color: #2f5f98;
+    border-radius: 5px;
+    padding-left: 11px;
+    padding-right: 11px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+.cor4 {
+    color: white;
+    background-color: #41b8d5;
+    border-radius: 5px;
+    padding-left: 11px;
+    padding-right: 11px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+.sombrinha{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.margemcima{
+    margin-top: 3%;
+}
+
+.margemcimaneg{
+    margin-top: -7%;
+}

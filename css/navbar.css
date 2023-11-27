@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+@media (max-width: 600px){
+	img{
+		width: 45%;
+	}
+
+    .container-fluid   .desktop{
+        display: none;
+    }
+    
+    .container-fluid  .mobile{
+        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container-fluid .mobile img{
+        width:50%;
+    }
+	
+}
+/*@media screen and (max-width: 992px){
+	img{
+		width: 75%;
+	}
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.azul{
+    background-color: #012986;
+}
+
+.fonte3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fonte4{
+    font-family: League Spartan;
+}
+
+.espaco-envolta{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.desktop{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+.caixinhanav{
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: solid 2.5px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.caixinhanav2{
+    width: 100%;
+    height: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: solid 2.5px;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+
+.select2.select2-container .select2-selection {
+    border: 2.5px solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 10px;
+    height: 40px;
+    margin-bottom: 15px;
+    outline: none !important;
+    transition: all .15s ease-in-out;
+    font-size: 25px;
+    text-align: start;
+  }
+
+  .select2.select2-container .select2-selection .select2-selection__arrow {
+    background: white;
+    border: 1.5px solid;
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    border-radius: 0 10px 10px 0;
+    height: 38px;
+    width: 37px;
+  }
+
+.botaonav{
+    padding: 7px 20px 2px 20px;
+    display: flex;
+    float: right;
+    box-shadow: 1px 1px 1px black;
+    border: none ;
+    border-radius: 5px;
+    background-color: #0035b1;
+    cursor: pointer;
+    color: white;
+    font-size: 1.6rem;
+    align-items: center;
+}
+
+.botaonav:hover{
+    padding: 7px 20px 2px 20px;
+    display: flex;
+    float: right;
+    box-shadow: 1px 1px 1px black;
+    border: none ;
+    border-radius: 5px;
+    background-color: #012986;
+    cursor: pointer;
+    color: white;
+    font-size: 1.6rem;
+    align-items: center;
+}
+
+.botaofecharnav{
+    padding: 7px 20px 2px 20px;
+    display: flex;
+    float: right;
+    box-shadow: 1px 1px 1px black;
+    border: none ;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.a-sem{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+

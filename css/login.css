@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #012986;
+}
+
+.tudo{
+    position: relative;
+    top: 40%;
+    transform: translateY(40%);
+}
+
+
+
+img{
+    width: 400px;
+
+}
+
+
+
+.container{
+    background-color: #fff;
+    width: 450px;
+    height: 290px;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow:  5px 5px 10px rgba(0,0,0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    font-family: League Spartan;
+    font-size: 3rem;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.container tr{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container a{
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.container a:hover{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: rgb(11, 54, 197);
+}
+
+.container .form {
+    font-family: Open Sans;
+    font-size: 20px
+}
+
+.container .form tr td input{
+    width: 350px;
+    height: 35px;
+    padding: 8px;
+    box-shadow: 2px 2px 2px gray;
+    border: none ;
+    border-radius: 5px;
+    background-color: gainsboro;
+}
+
+#nome{
+    margin-bottom: 20px;
+}
+
+.container .form .baixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.container .form .baixo button{
+    padding: 10px;
+    display: flex;
+    float: right;
+    box-shadow: 1px 1px 1px black;
+    border: none ;
+    border-radius: 5px;
+    background-color: gainsboro;
+    cursor: pointer;
+
+}
+
+.container .form .baixo button:hover{
+    color: blue
+}

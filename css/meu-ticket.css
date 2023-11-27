@@ -1,0 +1,28 @@
+body .hrrrr {
+    border-width: 5px;
+    color: #363636; 
+    margin-bottom: 20px;
+    opacity: 100%;
+    margin-top: -1px;
+    /*width: 70%;*/
+	}
+
+.risco{
+    color: #363636;
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 3.5rem;
+    margin-bottom: 2px;
+}
+  
+.clickable:hover {
+    background:azure;
+    cursor: pointer;
+}
+
+#data-table span{
+    display: none;
+}
